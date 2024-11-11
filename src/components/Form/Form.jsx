@@ -14,11 +14,19 @@ import Spinner from "../Spinner/Spinner.jsx";
 import styles from "./Form.module.css";
 
 export function convertToEmoji(countryCode) {
+  // Debugging log to verify countryCode input
+  console.log("Country Code Received:", countryCode);
+
   const codePoints = countryCode
     .toUpperCase()
     .split("")
     .map((char) => 127397 + char.charCodeAt());
-  return String.fromCodePoint(...codePoints);
+
+  const emoji = String.fromCodePoint(...codePoints);
+
+  // Check if emoji conversion is working
+  console.log("Converted Emoji:", emoji);
+  return emoji;
 }
 
 const BASE_URL = "https://api.bigdatacloud.net/data/reverse-geocode-client";
@@ -56,7 +64,10 @@ function Form() {
 
           setCityName(data.city || data.locality || "");
           setCountry(data.countryName);
-          setEmoji(convertToEmoji(data.countryCode));
+
+          // Test the emoji conversion here
+          const emojiFlag = convertToEmoji(data.countryCode);
+          setEmoji(emojiFlag);
         } catch (error) {
           setGeocodingError(error.message);
         } finally {

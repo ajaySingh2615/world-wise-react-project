@@ -25,30 +25,6 @@
       "id": "17806751"
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "bddb",
-      "cityName": "Brohl-Lutzing",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2024-11-11T13:34:51.709Z",
-      "notes": "test",
-      "position": {
-        "lat": "50.47149085139956",
-        "lng": "7.316894531250001"
-      }
-    },
-    {
       "id": "bdad",
       "cityName": "Brohl-Lutzing",
       "country": "Germany",
@@ -70,42 +46,6 @@
       "position": {
         "lat": "55.47885346331036",
         "lng": "40.86914062500001"
-      }
-    },
-    {
-      "id": "b749",
-      "cityName": "Majhgawan",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-11-11T13:42:32.548Z",
-      "notes": "",
-      "position": {
-        "lat": "25.16517336866393",
-        "lng": "80.85937500000001"
-      }
-    },
-    {
-      "id": "0bbc",
-      "cityName": "Majhgawan",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-11-11T13:42:32.548Z",
-      "notes": "",
-      "position": {
-        "lat": "25.16517336866393",
-        "lng": "80.85937500000001"
-      }
-    },
-    {
-      "id": "8e4e",
-      "cityName": "Banda",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-11-11T13:45:55.340Z",
-      "notes": "",
-      "position": {
-        "lat": "25.522614647623293",
-        "lng": "80.33203125"
       }
     }
   ]
