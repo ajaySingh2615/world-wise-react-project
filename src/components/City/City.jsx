@@ -1,9 +1,9 @@
-import { useParams } from "react-router-dom";
-import styles from "./City.module.css";
 import { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import { useCities } from "../../contexts/CitiesContext.jsx";
-import Spinner from "../Spinner/Spinner.jsx";
 import BackButton from "../Button/BackButton.jsx";
+import Spinner from "../Spinner/Spinner.jsx";
+import styles from "./City.module.css";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -19,7 +19,7 @@ function City() {
 
   useEffect(() => {
     getCity(id);
-  }, [id]);
+  }, [id, getCity]);
 
   const { cityName, emoji, date, notes } = currentCity;
 
